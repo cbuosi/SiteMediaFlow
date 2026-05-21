@@ -1,0 +1,19 @@
+------------------------------------------------------------
+Data:     21/05/2026 12:44:42
+Nome:     aaaaaa
+E-mail:   aa@aa.com
+Empresa:  bb
+Mensagem: dvpa fsa fsafas
+------------------------------------------------------------
+Data:     21/05/2026 12:46:24
+Nome:     Carlos Buosi
+E-mail:   cbuosi@gmail.com
+Empresa:  bbs informatica
+Mensagem: ola
+queria mais informacoes.
+------------------------------------------------------------
+Data:     21/05/2026 12:48:57
+Nome:     fsafasfas
+E-mail:   fsafsa@dnjofsan.copm
+Empresa:  nosadpnipoafsnopi
+Mensagem: asdoinpsafnifsnaofsa

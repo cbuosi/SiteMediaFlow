@@ -40,9 +40,10 @@
             </div> -->
 
             <nav>
-                <a href="#vantagens">Vantagens</a>
-                <a href="#equipamentos">Equipamentos</a>
-                <a href="#contato">Contato</a>
+                <a href="#vantagens"><i class="fa-solid fa-star"></i> Vantagens</a>
+                <a href="#equipamentos"><i class="fa-solid fa-tv"></i> Equipamentos</a>
+                <a href="#planos"><i class="fa-solid fa-tags"></i> Planos</a>
+                <a href="#contato"><i class="fa-solid fa-envelope"></i> Contato</a>
             </nav>
 
             <a href="#contato" class="btn-primary">
@@ -529,6 +530,126 @@
 
     </section>
 
+   <!-- ===== PRICING SECTION ===== -->
+    <section id="planos">
+ 
+        <div class="container">
+ 
+            <div class="pricing-header">
+                <h2><i class="fa-solid fa-tags"></i> Planos e Preços</h2>
+                <p>
+                    Escolha o plano ideal para o seu negócio. Compatível com seu próprio equipamento ou com o nosso dispositivo em comodato ou venda.
+                </p>
+            </div>
+ 
+            <div class="pricing-table-wrap">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th><i class="fa-solid fa-layer-group"></i>&nbsp; Plano</th>
+                            <th>
+                                <i class="fa-solid fa-wifi"></i>&nbsp; Só Serviço
+                                <span style="display:block; font-weight:400; font-size:0.75rem; opacity:0.7; margin-top:2px;">* Equipamento próprio</span>
+                            </th>
+                            <th>
+                                <i class="fa-brands fa-raspberry-pi"></i>&nbsp; Serviço + Comodato
+                                <span style="display:block; font-weight:400; font-size:0.75rem; opacity:0.7; margin-top:2px;">** Fidelidade 12 meses</span>
+                            </th>
+                            <th>
+                                <i class="fa-solid fa-cart-shopping"></i>&nbsp; Serviço + Compra
+                                <span style="display:block; font-weight:400; font-size:0.75rem; opacity:0.7; margin-top:2px;">*** Equipamento é seu</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td class="plan-name">
+                                Starter
+                                <br>
+                                <span class="plan-badge badge-starter">1 tela</span>
+                            </td>
+                            <td>
+                                <span class="price-main">R$ 49<small>/mês</small></span>
+                            </td>
+                            <td>
+                                <span class="price-main" style="color:#ff9f40;">R$ 89<small>/mês</small></span>
+                            </td>
+                            <td>
+                                <div class="price-combo">
+                                    <span class="price-main">R$ 499</span>
+                                    <span class="price-plus">+ R$ 49/mês</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="plan-name">
+                                Business
+                                <br>
+                                <span class="plan-badge badge-business">até 5 telas</span>
+                            </td>
+                            <td>
+                                <span class="price-main">R$ 159<small>/mês</small></span>
+                            </td>
+                            <td>
+                                <span class="price-main" style="color:#ff9f40;">R$ 229<small>/mês</small></span>
+                            </td>
+                            <td>
+                                <div class="price-combo">
+                                    <span class="price-main">R$ 499<small>/un</small></span>
+                                    <span class="price-plus">+ R$ 159/mês</span>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="plan-name">
+                                Pro / Enterprise
+                                <br>
+                                <span class="plan-badge badge-business" style="color:#c084fc; border-color:rgba(192,132,252,0.3); background:rgba(192,132,252,0.1);">telas ilimitadas</span>
+                            </td>
+                            <td colspan="2" style="color:#8a9bb5; font-style:italic; vertical-align:middle;">
+                                <i class="fa-solid fa-phone"></i>&nbsp; Sob consulta — redes, franquias e revendedores &nbsp;
+                                <a href="#contato" style="color:#4da3ff; text-decoration:none; font-style:normal; font-weight:600;">
+                                    Falar conosco <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+ 
+            <!-- Notes -->
+            <div class="pricing-notes">
+                <div class="pricing-note">
+                    <span class="note-marker">ATENÇÃO</span>
+                    <span>O cliente já deve ter uma TV / suporte instalado em local apropriado no seu estabelecimento. Ajudamos na escolha/instalação caso necessário.</span>
+                </div>
+                <div class="pricing-note">
+                    <span class="note-marker">*</span>
+                    <span>O cliente já possui Raspberry Pi 3 ou superior, Mini PC ou outro dispositivo compatível com Linux. Apenas a mensalidade do serviço é cobrada.</span>
+                </div>
+                <div class="pricing-note">
+                    <span class="note-marker">**</span>
+                    <span>O cliente recebe o equipamento (Raspberry Pi completo com case, cartão SD e fonte) por comodato. Em caso de encerramento do contrato, o equipamento <strong style="color:#cdd8ea;">é devolvido</strong> à MediaFlow.</span>
+                </div>
+                <div class="pricing-note">
+                    <span class="note-marker">***</span>
+                    <span>O cliente compra o equipamento (Raspberry Pi completo com case, cartão SD e fonte), que passa a ser <strong style="color:#cdd8ea;">de sua propriedade.</strong></span>
+                </div>
+            </div>
+ 
+            <!-- CTA -->
+            <div class="pricing-cta">
+                <p>Dúvidas sobre qual plano escolher? Nossa equipe te ajuda.</p>
+                <a href="#contato" class="btn-primary">
+                    <i class="fa-solid fa-envelope"></i> Solicitar Orçamento
+                </a>
+            </div>
+ 
+        </div>
+ 
+    </section>
+
     <section id="campanhas">
 
         <div class="container">
@@ -545,7 +666,7 @@
                 </h3>
 
                 <p style="margin-top:20px;">
-                    Também criamos e mantemos suas campanhas publicitárias, desenvolvendo conteúdos modernos e profissionais para TVs corporativas, painéis digitais e comunicação visual. Produzimos campanhas com logotipos, imagens promocionais, tabelas de preços, vídeos, chamadas visuais e animações que ajudam a destacar produtos, serviços e promoções de forma clara e atrativa.
+                    Desenvolvendo conteúdos modernos e profissionais para TVs corporativas, painéis digitais e comunicação visual. Produzimos campanhas com logotipos, imagens promocionais, tabelas de preços, vídeos, chamadas visuais e animações que ajudam a destacar produtos, serviços e promoções de forma clara e atrativa.
                 </p>
                 <p style="margin-top:20px;">
                     Contamos com profissionais capacitados e parceria com empresas consolidadas nas áreas de marketing e publicidade, garantindo materiais de alta qualidade visual e excelente impacto comercial. Tudo isso com atendimento próximo, atualização contínua das campanhas e preços acessíveis para empresas de todos os portes.
@@ -561,7 +682,14 @@
 
         <div class="container">
 
+            <?php if (isset($_GET['enviado'])): ?>
+                <p style="color:green; text-align:center;">
+                    ✅ Mensagem enviada com sucesso!
+                </p>
+            <?php endif; ?>                
+
             <div class="contact-box">
+
 
                 <div class="contact-info">
 
@@ -578,7 +706,7 @@
 
                 </div>
 
-                <form class="contact-form" id="contactForm">
+                <form class="contact-form" id="contactForm" action="contato.php" method="POST">
 
                     <input type="text" name="nome" placeholder="Seu nome">
                     <input type="email" name="email" placeholder="Seu e-mail">
